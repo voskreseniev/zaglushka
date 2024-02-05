@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+}
+
+#logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#text {
+    font-size: 24px; /* Увеличь размер текста здесь */
+    font-weight: bold; /* Жирный шрифт для выделения */
+    color: #555; /* Цвет текста */
+    margin-bottom: 30px;
+}
+
+#links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #4285f4;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#links a:hover {
+    background-color: #3367d6;
+}
